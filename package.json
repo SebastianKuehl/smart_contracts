@@ -3,7 +3,7 @@
         "dotenv": "^16.0.2",
         "ethers": "^5.7.0",
         "fs-extra": "^10.1.0",
-        "solc": "0.8.7-fixed"
+        "solc": "0.8.16"
     },
     "scripts": {
         "compile": "yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o build/ contracts/SimpleStorage.sol"
