@@ -2,6 +2,7 @@
 
 6:46:00
 7:14:50
+7:49:10
 
 compile the smart contract with
 `yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o build/ contracts/SimpleStorage.sol`
